@@ -1,0 +1,175 @@
+/* html {
+    background: radial-gradient(circle at top left, #fdbb2d, #22c1c3);  
+  } */
+  
+body{
+   
+        background-size: cover; 
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
+        text-align: center;
+        background: #f2f2f2;
+         text-align: center;
+}
+h1{
+    display:inline-block;
+    position:relative;
+}
+
+h1::after,h1::before{
+    content: '';
+    position:absolute;
+    width: 120px;
+    height: 3px;
+    background-color:currentColor;
+    top:0.6em;
+    transform: scale(0);
+    transition: all 0.02s ease-in;
+
+}
+
+h1:hover::before, h1:hover::after{
+    transform: scale(1);
+}
+
+h1::before{
+    left: -140px;
+}
+
+h1::after{
+    right: -140px;
+}
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+nav{
+    background: #2fcdcd;
+    height: 80px;
+    width: 100%;
+}
+.enlace{
+    position: absolute;
+    padding: 20px 50px;
+    right: 5000px;
+    left: -1px;
+
+}
+
+   
+.Parrafo1{
+    position: absolute;
+    height: 50px;
+    width: 90%;
+    left: 150px;
+    top: 250px;
+    min-height:98px;
+    width:734px !important;
+    transform:translatex(466px) translatey(88px);
+}
+.logoprin{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 100px;
+    top: 180px;
+}
+.Titulo{
+    position: absolute;
+    width:309px !important;
+    transform:translatex(784px) translatey(64px);
+    width: 90%;
+    left: 30px;
+    top: 180px;
+}
+.logo{
+
+    height: 40px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: #fff;
+    font-size: 18px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+li a.active, li a:hover{
+    background: #000090;
+    transition: .5s;
+}
+.checkbtn{
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+    
+}
+#check{
+    display: none;
+}
+section{
+    background: url(/assets/Fondos/Fondo1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: calc(100vh - 80.5px);
+}
+footer{
+    background-color: rgb(16, 116, 116);
+}
+@media (max-width: 952px){
+    .enlace{
+        padding-left: 20px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    .checkbtn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        background: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all .5s;
+    }
+    nav ul li{
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+    nav ul li a{
+        font-size: 20px;
+    }
+    li a:hover, li a.active{
+        background: none;
+        color: red;
+    }
+    #check:checked ~ ul{
+        left:0;
+    }
+    
+}

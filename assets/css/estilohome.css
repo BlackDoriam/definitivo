@@ -49,7 +49,7 @@ h1::after{
 }
 
 nav{
-    background: #2fcdcd;
+    background: #606060;
     height: 80px;
     width: 100%;
 }
@@ -71,6 +71,8 @@ nav{
     min-height:98px;
     width:734px !important;
     transform:translatex(466px) translatey(88px);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
 }
 .logoprin{
     position: absolute;
@@ -78,6 +80,7 @@ nav{
     width: 500px;
     left: 100px;
     top: 180px;
+    border-radius: 80px;
 }
 .Titulo{
     position: absolute;
@@ -86,10 +89,12 @@ nav{
     width: 90%;
     left: 30px;
     top: 180px;
+    font-size: xx-large;
 }
 .logo{
-
-    height: 40px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
 }
 nav ul{
     float: right;
@@ -108,7 +113,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #000090;
+    background: #4747ff;
     transition: .5s;
 }
 .checkbtn{
@@ -131,7 +136,7 @@ section{
     height: calc(100vh - 80.5px);
 }
 footer{
-    background-color: rgb(16, 116, 116);
+    background-image: linear-gradient(45deg, #5c5c5c, #645b5e);
 }
 @media (max-width: 952px){
     .enlace{

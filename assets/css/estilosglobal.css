@@ -87,8 +87,8 @@ h1::after{
     height: 60px;
     width: 250px;
     text-align: center;
-    color: rgb(67, 94, 94);
-    background-color: rgb(240, 160, 189);
+    color: rgb(151, 169, 169);
+    background-color: rgb(109, 93, 101);
     border-radius: 10px;
 }
 p{
@@ -109,7 +109,7 @@ p{
 }
 .encabezado{
     text-align: center;
-    background-color:rgb(244, 219, 216);
+    background: linear-gradient(to right, #303035, #3e555a);  
     border-radius: 100px;
 }
 .titulohdv{

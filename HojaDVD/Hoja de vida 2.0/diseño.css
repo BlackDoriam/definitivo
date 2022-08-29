@@ -5,7 +5,7 @@ html{
 }
 body{
     background-color: #f5f5f5;
-   
+   margin: 0 auto;
 }
 a{
     cursor:url(img/serpi.png),auto;
@@ -85,9 +85,7 @@ p.holi{
     font-size: 40px;
 }
 
-div.op1{
-    background-color: antiquewhite;
-}
+
 
 div.op2{
     background-image: url("/HojaDVD/Hoja de vida 2.0/img/baster.png");

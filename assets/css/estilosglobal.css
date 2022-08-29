@@ -51,7 +51,9 @@ h1::after{
     font-family: Arial, Helvetica, sans-serif;
 }
 /*hojas*/
-
+.avatar{
+    border-radius: 70px;
+}
 .Titulo{
     position: absolute;
     width:309px !important;
@@ -68,7 +70,7 @@ h1::after{
     width: 100%;
     left: 30px;
     top: 180px;
-    color: #000000;
+   
     ;
 }
 .logoprin{
@@ -96,8 +98,8 @@ h1::after{
     transform:translatex(784px) translatey(150px);
     width: 100%;
     left: 30px;
-    top: 180px;
-    color: #403737;
+    top: 10px;
+    color: #000000;
     ;
 }
 .logoprin{
@@ -106,6 +108,7 @@ h1::after{
     width: 500px;
     left: 100px;
     top: 110px;
+    border-radius: 500px;
 }
 /*HOJA DE VIDA ABEL*/
 

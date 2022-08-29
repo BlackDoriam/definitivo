@@ -79,6 +79,34 @@ h1::after{
     top: 110px;
 }
 
+/*contacto abel*/
+
+.Titulo{
+    position: absolute;
+    width:309px !important;
+    transform:translatex(784px) translatey(64px);
+    width: 90%;
+    left: 30px;
+    top: 180px;
+    font-size:50%;
+}
+.Parrafo1{
+    position: absolute;
+    width:309px !important;
+    transform:translatex(784px) translatey(150px);
+    width: 100%;
+    left: 30px;
+    top: 180px;
+    color: #000000;
+    ;
+}
+.logoprin{
+    position: absolute;
+    height: 500px;
+    width: 500px;
+    left: 100px;
+    top: 110px;
+}
 /*HOJA DE VIDA ABEL*/
 
 .titulos{

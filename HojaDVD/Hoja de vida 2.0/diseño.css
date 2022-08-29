@@ -69,7 +69,7 @@ visibility: hidden;
 
 
 
-#radio1:checked ~ .op1,#radio2:checked ~ .op2,#radio3:checked ~ .op3,#radio4:checked ~ .op4{
+#radio1:checked ~ .op1,#radio2:checked ~ .op2,#radio3:checked ~ .op3, #radio4:checked ~ .op4{
     opacity: 1;
     visibility: visible;
 }
@@ -90,7 +90,7 @@ div.op1{
 }
 
 div.op2{
-    background-image: url(/img/baster.png);
+    background-image: url("/HojaDVD/Hoja de vida 2.0/img/baster.png");
 }
 div.op4{
     background-color:  #f5f5f5;

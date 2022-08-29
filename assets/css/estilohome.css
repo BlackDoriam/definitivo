@@ -49,7 +49,7 @@ h1::after{
 }
 
 nav{
-    background: #2fcdcd;
+    background: #606060;
     height: 80px;
     width: 100%;
 }
@@ -134,7 +134,7 @@ section{
     height: calc(100vh - 80.5px);
 }
 footer{
-    background-color: rgb(16, 116, 116);
+    background-color: rgb(53, 53, 53);
 }
 @media (max-width: 952px){
     .enlace{

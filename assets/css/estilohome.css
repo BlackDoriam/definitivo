@@ -134,7 +134,7 @@ section{
     height: calc(100vh - 80.5px);
 }
 footer{
-    background-color: rgb(53, 53, 53);
+    background-color: rgb(73, 73, 73);
 }
 @media (max-width: 952px){
     .enlace{

@@ -273,6 +273,13 @@ icon:last-child {
     font-family: Arial, Helvetica, sans-serif;
     border-radius: 5px;
 }
+.info4 iframe {
+    display: inline-block;
+    width: auto;
+    height: auto;
+    padding-left: 50%;
+    padding-right: 1%;
+}
 .info5{
     width: auto;
     line-height: 50px;

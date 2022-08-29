@@ -97,7 +97,7 @@ h1::after{
     width: 100%;
     left: 30px;
     top: 180px;
-    color: #000000;
+    color: #403737;
     ;
 }
 .logoprin{
@@ -115,12 +115,14 @@ h1::after{
     height: 60px;
     width: 250px;
     text-align: center;
-    color: rgb(151, 169, 169);
-    background-color: rgb(109, 93, 101);
+    color: rgb(107, 107, 107);
+    background-color: rgb(70, 63, 67);
     border-radius: 10px;
 }
 p{
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
+    color: #000000;
 }
 .encabezado{
     margin: auto;
@@ -147,6 +149,7 @@ p{
     left: 100px;
 }
 .separador{
+    background: linear-gradient(to right, #222224, #426870); 
     height: 10px;
     width: 50%;
 }

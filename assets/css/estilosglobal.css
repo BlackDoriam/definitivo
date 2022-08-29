@@ -41,35 +41,6 @@ h1::after{
     font-family: Arial, Helvetica, sans-serif;
  
 }
-/*tabla*/
-.table {
-    margin: 0 auto;
-    border-collapse: collapse;
-}
-
-.table,
-th,
-td {
-    border: 2px solid rgb(143, 243, 170);
-}
-table{
-    color: #c8f7f8;
-    position: relative;
-    left: 35%
-}
-
-.table {
-    border: 1px solid #000;
-    border-collapse: separate;
-  }
-  table {
-    border: 1px solid rgb(158, 158, 158);
-    border-collapse: separate;
-    border-spacing: 10px;
-  }
-  td {
-    border: 1px solid rgb(193, 141, 210);
-  }
 
 .volver{
     text-align: center;
@@ -79,17 +50,6 @@ table{
     color: #ad9fd2;
     font-family: Arial, Helvetica, sans-serif;
 }
-.Tituloc{
-    position: absolute;
-    width:309px !important;
-    transform:translatex(784px) translatey(64px);
-    width: 90%;
-    left: 30px;
-    top: 180px;
-    color: #c0c0c0;
-    font-size:40px;
-}
-
 /*hojas*/
 
 .Titulo{

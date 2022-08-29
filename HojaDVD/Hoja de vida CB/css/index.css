@@ -15,7 +15,7 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: rgb(107, 104, 107);
+    background-color: rgb(209, 197, 209);
     padding-left: 3vw;
     position: relative;
     z-index: 2;
@@ -34,7 +34,7 @@ li{
     transition: all .3s ease 0s;
 }
 li:hover{
-    background-color: rgb(107, 104, 107);;
+    background-color: rgb(209, 197, 209);
 
 }
 .develop{
@@ -60,7 +60,7 @@ li:hover{
 
 }
 .ul-second > li:hover{
-    background-color: rgb(107, 104, 107);;
+    background-color: rgb(209, 197, 209);
 }
 
 .develop:hover >.ul-second{
@@ -96,7 +96,7 @@ li:hover{
 .name{
     width: 50%;
     height: 350px;
-    background-color:rgb(107, 104, 107);;
+    background-color:rgb(209, 197, 209);
     transform: skewY(0deg);
     outline: 6px solid rgb(50, 9, 75);
     border-radius: 8px;
@@ -136,7 +136,7 @@ li:hover{
     border-radius: 150%;
     transform:skewY(0deg);
     overflow: hidden;
-    border-color: rgb(107, 104, 107);;
+    border-color: rgb(209, 197, 209);
     border-radius: 30px;
     outline: 6px solid rgb(50, 9, 75);
 }
@@ -148,7 +148,7 @@ li:hover{
 .recuadro{
     width: auto;
     height: 850px;
-    background-color: rgb(107, 104, 107);;
+    background-color: rgb(209, 197, 209);
     margin:2%;
     padding: 100px;
     border-radius: 15px;

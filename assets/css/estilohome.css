@@ -147,6 +147,9 @@ footer{
     }
 }
 
+.hdvd{
+    color:#fff;
+}
 @media (max-width: 858px){
     .checkbtn{
         display: block;

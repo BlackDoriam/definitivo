@@ -28,7 +28,7 @@ source{
 .contenid{
   width: 100% ;
   max-width: 1400px;
-  margin: auto;  
+  margin: 0 auto;  
 }
 .menu{
     background-color: rgb(224, 187, 187);

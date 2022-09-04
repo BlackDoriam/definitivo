@@ -175,9 +175,75 @@ p{
 
 /* FORMULARIO */
 
-
-.titulo{
-    position: relative;
-    transform: translateY(0px) translateX(100%);
-    color:#303035;
+.encabezado1{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+    color: rgb(255, 255, 255);
+    background-color: rgba(175, 175, 175, 0.832);
 }
+.formpanel{
+     border: #000000;
+     transform: translateY(0px) translateX(-15%);
+}
+
+.form{
+    transform: translateY(0px) translateX(200%);
+}
+
+form fieldset{
+    transform:translatex(0px) translatey(0px);
+    width:39%;
+    position:relative;
+    left:550px;
+   }
+   
+   /* Form Division */
+   form{
+    transform:translatex(0px) translatey(0px);
+   }
+
+.imagen{
+    display:inline-block;
+    width:511px;
+    transform:translatex(574px) translatey(-4.800018310546875px);
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;
+    border-bottom-left-radius:10px;
+    border-bottom-right-radius:10px;
+    position:relative;
+    right:74px;
+}
+/* Input */
+form fieldset input[type=file]{
+    transform:translatex(67px) translatey(-7px);
+   }
+   
+   /* Fieldset */
+   form fieldset{
+    backdrop-filter:blur(10px) grayscale(1);
+    background-attachment:fixed;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgba(255,255,255,0.46);
+    box-shadow:0px 0px 5px 0px #ecf0f1;
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+   }
+/* Input */
+form fieldset input[type=reset]{
+    transform:translatex(167px) translatey(-11px);
+   }
+   
+   /* Button */
+   form fieldset .btn-outline-primary{
+    transform:translatex(115px) translatey(-13px);
+   }
+   
+   /* Legend */
+   form fieldset legend{
+    width:49%;
+    transform:translatex(119px) translatey(-45px);
+   }   

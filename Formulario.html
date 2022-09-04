@@ -2,54 +2,47 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Formulario Basico en HTML</title>
+	<title>Formulario</title>
 	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
-	<link rel="shortcut icon" href="../assets/Perfil/logo.png">
+	<link rel="shortcut icon" href="./assets/Fondos/Fondo17.jpg">
     <link rel="stylesheet" href="../assets/css/estilosglobal.css">
 </head>
 
-<body>
-	<section>
-		<h1 class="titulo">Lenguajes de programacion</h1>
+<body style="background-image: url(/assets/Fondos/Fondo26.jpg)"	>
+	<section class="encabezado1" >
+		<h1>Lenguajes de programacion color</h1>
 	</section>
+	<br><br>
+	
 	<form>
-		<fieldset>
-			<legend>Elije a tu equipo favorito</legend>
+		<fieldset class="formpanel">
+			<legend>Elije a tu lenguaje favorito</legend>
 
 			<label>Nombre</label>
-			<input type="text" placeholder="Ej. Carlos">
+			<input type="text" placeholder="Ej. Abel">
 
 			<br><br>
 			<label>Correo</label>
-			<input type="email" placeholder="xxxx@gmail.com">
+			<input type="email" placeholder="Alguien@gmail.com">
 
 			<br><br>
 			<label>Contraseña</label>
 			<input type="password">
 
 			<br><br>
-			<label>Equipos</label>
-			<select name="equipos" id="equipos">
-				<optgroup label="Liga">
-					<option value="America">America</option>
-					<option value="Cali">Cali</option>
-					<option value="Junior">Junior</option>
-					<option value="Medellin">Medellin</option>
-					<option value="Millonarios">Millonarios</option>
-					<option value="Nacional">Nacional</option>
-					<option value="Santafe">Santafe</option>
-					<option value="Tolima">Tolima</option>
+			<label>Lenguajes</label>
+			<select name="Lenguajes" id="Lenguajes">
+				<optgroup label="Lenguaje Compilado">
+					<option value="America">C++</option>
+					<option value="Cali">C#</option>
+					<option value="Junior">GO</option>
+					<option value="Medellin">DELPHI</option>
 				</optgroup>
-
-				<optgroup label="Copa">
-					<option value="Bogota">Bogota</option>
-					<option value="Cartagena">Cartagena</option>
-					<option value="Chico">Chico</option>
-					<option value="Cucuta">Cucuta</option>
-					<option value="Huila">Huila</option>
-					<option value="Quindio">Quindio</option>
-					<option value="Orsomarso">Orsomarso</option>
-					<option value="Tigres">Tigres</option>
+				<optgroup label="Lenguajes de interpretacion">
+					<option value="Bogota">JAVASCRIPT</option>
+					<option value="Cartagena">PYTHON</option>
+					<option value="Chico">RUBY</option>
+					<option value="Cucuta">PHP</option>
 				</optgroup>
 
 			</select>
@@ -57,37 +50,31 @@
 			<br><br>
 			<input type="file" name="file">
 			<br><br>
-			<label>¿La ves en Win Sports?</label><br>
+			<label>Manejas mas de un lenguaje</label><br>
 			<input type="radio" name="win"> No<br>
-			<input type="radio" name="win"> Sí, no me gusta acudir al estadio.
+			<input type="radio" name="win"> Sí
 
 			<br><br>
-			<label>¿Desde que medio ves los partidos?</label><br>
-			<input type="checkbox"> Desde la TV<br>
-			<input type="checkbox"> Desde el ordenador<br>
-			<input type="checkbox"> Desde el Movil
+			<label>¿Cuanto tiempo tienes programando?</label><br>
+			<input type="checkbox"> Entre 5 - 10 años<br>
+			<input type="checkbox"> Entre 3 - 5  años<br>
+			<input type="checkbox"> Entre 1 - 3 años
 
 			<br><br>
-			<label>¿Por qué eres seguidor de este equipo?</label><br>
+			<label>¿Te gusta la programacion?</label><br>
 			<textarea rows="5" cols="70"></textarea>
 
 			<br><br>
-			<input class="btn btn-outline-primary" type="submit" value="Participar">
-			<input type="reset" value="Borrar formulario">
+			<input class="btn btn-outline-primary" type="submit" value="Enviar Respuestas">
+			<input type="reset" value="Borrar respuestas">
 
 		</fieldset>
 	</form>
+	<p > Imagen representatiba <a href="https://www.youtube.com/watch?v=0yL_loiMbFI">Programacion</a></p> <a href="https://www.youtube.com/watch?v=0yL_loiMbFI"></a> <a href="https://www.youtube.com/watch?v=0yL_loiMbFI"><img class="imagen" src="/assets/Recursos/program.jpg"alt="imagen"></a></a>
 
-	<div style="background-color: #00ff;">
-		<p><img src="logo-dimayor.png" style="width: 80px;" alt="logo dimayor"> Division Mayor del Futbol Colombiano
-			<a href="https://dimayor.com.co">DIMAYOR </a></p>
-	</div>
-	<p> Federacion Colombiana de Futbol <a href="https://fcf.com.co/">FPC</a></p><img src="logo-FCF.png"
-		alt="logo fcp">
+	<hr >
 
-	<hr>
-
-	<p>&copy; Copyright 2022 | Equipos FPC &amp; Co.</p>
+	<p >&copy; Grupo de programacion &amp; C.M.C.A.C</p>
 
 </body>
 

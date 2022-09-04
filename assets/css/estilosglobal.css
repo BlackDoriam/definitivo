@@ -171,3 +171,13 @@ p{
     transform:translatex(330px) translatey(8.7998046875px);
     width:807px;
 }
+
+
+/* FORMULARIO */
+
+
+.titulo{
+    position: relative;
+    transform: translateY(0px) translateX(100%);
+    color:#303035;
+}

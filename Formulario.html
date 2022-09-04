@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formulario Basico en HTML</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+	<h1>Equipos de futbol</h1>
+
+	<form>
+		<fieldset>
+			<legend>Elije a tu equipo favorito</legend>
+
+			<label>Nombre</label>
+			<input type="text" placeholder="Ej. Carlos">
+
+			<br><br>
+			<label>Correo</label>
+			<input type="email" placeholder="xxxx@gmail.com">
+
+			<br><br>
+			<label>Contraseña</label>
+			<input type="password">
+
+			<br><br>
+			<label>Equipos</label>
+			<select name="equipos" id="equipos">
+				<optgroup label="Liga">
+					<option value="America">America</option>
+					<option value="Cali">Cali</option>
+					<option value="Junior">Junior</option>
+					<option value="Medellin">Medellin</option>
+					<option value="Millonarios">Millonarios</option>
+					<option value="Nacional">Nacional</option>
+					<option value="Santafe">Santafe</option>
+					<option value="Tolima">Tolima</option>
+				</optgroup>
+
+				<optgroup label="Copa">
+					<option value="Bogota">Bogota</option>
+					<option value="Cartagena">Cartagena</option>
+					<option value="Chico">Chico</option>
+					<option value="Cucuta">Cucuta</option>
+					<option value="Huila">Huila</option>
+					<option value="Quindio">Quindio</option>
+					<option value="Orsomarso">Orsomarso</option>
+					<option value="Tigres">Tigres</option>
+				</optgroup>
+
+			</select>
+
+			<br><br>
+			<input type="file" name="file">
+			<br><br>
+			<label>¿La ves en Win Sports?</label><br>
+			<input type="radio" name="win"> No<br>
+			<input type="radio" name="win"> Sí, no me gusta acudir al estadio.
+
+			<br><br>
+			<label>¿Desde que medio ves los partidos?</label><br>
+			<input type="checkbox"> Desde la TV<br>
+			<input type="checkbox"> Desde el ordenador<br>
+			<input type="checkbox"> Desde el Movil
+
+			<br><br>
+			<label>¿Por qué eres seguidor de este equipo?</label><br>
+			<textarea rows="5" cols="70"></textarea>
+
+			<br><br>
+			<input class="btn btn-outline-primary" type="submit" value="Participar">
+			<input type="reset" value="Borrar formulario">
+
+		</fieldset>
+	</form>
+
+	<div style="background-color: #00ff;">
+		<p><img src="logo-dimayor.png" style="width: 80px;" alt="logo dimayor"> Division Mayor del Futbol Colombiano
+			<a href="https://dimayor.com.co">DIMAYOR </a></p>
+	</div>
+	<p> Federacion Colombiana de Futbol <a href="https://fcf.com.co/">FPC</a></p><img src="logo-FCF.png"
+		alt="logo fcp">
+
+	<hr>
+
+	<p>&copy; Copyright 2022 | Equipos FPC &amp; Co.</p>
+
+</body>
+
+</html>

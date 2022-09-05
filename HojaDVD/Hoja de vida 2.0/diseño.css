@@ -113,7 +113,7 @@ h1{
     /* font-size: 40px; */
     text-align: center ;
 }
-th{
+th td.s1{
     margin-left: 90px;
     text-align:justify; 
     text-decoration: none;

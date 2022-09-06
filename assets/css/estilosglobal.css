@@ -53,7 +53,7 @@ h1::after{
 }
 /*hojas*/
 .avatar{
-    border-radius: 70px;
+    border-radius: 80px;
 }
 .Titulo{
     position: absolute;
@@ -80,6 +80,8 @@ h1::after{
     width: 500px;
     left: 100px;
     top: 110px;
+    width:296px;
+    border-radius: 80px;
 }
 
 /*contacto abel*/
@@ -103,11 +105,11 @@ h1::after{
     color: #000000;
     ;
 }
-.logoprin{
+.logoprin1{
     position: absolute;
     height: 550px;
-    width: 550px;
-    left: 100px;
+    width:310px;
+    left: 250px;
     top: 150px;
     border-radius: 500px;
 }

@@ -61,7 +61,16 @@ nav{
 
 }
 
-   
+.text_prin{
+    width: 50%;
+    height: 70%;
+    transform: translateY(7em) translateX(45em);
+    border-radius: 50px;
+    border-style:solid;
+    border-color:rgba(236,240,241,0.14);
+    backdrop-filter:blur(3.76px) contrast(0) invert(0.17);
+
+}
 .Parrafo1{
     position: absolute;
     height: 50px;

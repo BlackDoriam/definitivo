@@ -130,7 +130,11 @@ p{
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     color: #000000;
-    
+    box-shadow:-1px 0px 44px -14px #000000;
+    min-width:574px;
+    max-width:0px;
+    min-height:0px;
+  
 }
 .encabezado{
     margin: auto;

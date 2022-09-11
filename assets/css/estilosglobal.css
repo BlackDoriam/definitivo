@@ -134,13 +134,35 @@ p{
     min-width:574px;
     max-width:0px;
     min-height:0px;
-  
+}
+.encabezado p{
+    color: #dadada;
+ height:259px;
+ transform:translatex(70%) translatey(-53px) !important;
+ width:574px;
+ max-width:574px;
+ margin-bottom:21px;
+ padding-bottom:27px;
+}
+
+/* Texto */
+.texto{
+ transform:translatex(470px) translatey(-6px);
+ color: #dadada;
+}
+
+/* Paragraph */
+p{
+ transform:translatex(466px) translatey(-12px) !important;
+ color: #dadada;
+}
 }
 .encabezado{
     margin: auto;
     position: relative;
     height: 350px;
     width: 1100px;
+    color: #dadada;
 }
 .perfilimf{
     position: absolute;

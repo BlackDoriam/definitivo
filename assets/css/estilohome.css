@@ -323,7 +323,6 @@ div.personaje{
     width: 42px;
     background:url(/assets/Fondos/vuela.png);
     margin: 0 auto;
-    /* background-position: -42px 0; */
     animation: volar 0.9s steps(4) infinite;
 }
 @keyframes volar {

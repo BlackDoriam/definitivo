@@ -49,10 +49,10 @@ h1::after{
 }
 
 nav{
-    background: #606060;
+    background-image: url(/assets/Fondos/);
     height: 80px;
     width: 100%;
-    
+
 }
 .enlace{
     position: absolute;

@@ -482,7 +482,7 @@ footer{
 }
 
 /*cartas descarga*/
-.card_d0, .card_d1, .card_d2 {
+.card_d0, .card_d1, .card_d2, .card_d3, .card_d4 {
     margin: 20px;
     width: 200px;
     height: 300px;
@@ -522,3 +522,11 @@ footer{
     position: relative;
     transform: translateX(150%) translateY(-288%);
 }
+.card_d3{
+    position: relative;
+    transform: translateX(450%) translateY(-500%);
+  }
+  .card_d4{
+    position: relative;
+    transform: translateX(620%) translateY(-713%);
+  }

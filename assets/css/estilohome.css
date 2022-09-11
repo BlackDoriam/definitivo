@@ -400,7 +400,10 @@ li a.active, li a:hover{
     display: none;
     
 }
-
+.gameover{
+    height: 50px;
+    width: 50px;
+}
 body::-webkit-scrollbar {
 	width: 10px;
 	background: #000000;

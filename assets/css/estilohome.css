@@ -355,10 +355,10 @@ nav{
 }
 .logoprin{
     position: absolute;
-    height: 500px;
-    width: 500px;
-    left: 100px;
-    top: 180px;
+    height: 500%;
+    width: 500%;
+    left: 100%;
+    top: 180%;
     border-radius: 80px;
 }
 .Titulo{
@@ -439,10 +439,10 @@ footer{
         font-size: 16px;
     }
 }
-
-.hdvd{
-    color:#fff;
+.cuadro_2{
+    min-height:962px;
 }
+
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -473,4 +473,57 @@ footer{
         left:0;
     }
     
+}
+.hdvd{
+    position: relative;
+    color:#fff;
+    top:-16px;
+}
+.game{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    transform: translateX(-280%) translateY(50%);
+}
+
+/*cartas descarga*/
+.card_d0, .card_d1, .card_d2 {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, .4);
+    opacity: 0;
+    transition: .5s;
+}
+
+.content h2, a {
+    color: rgba(255, 255, 255, .8);
+    margin: 10px 0;
+}
+
+.card:hover .content {
+    opacity: 1;
+}
+.card_d1{
+  position: relative;
+  transform: translateX(300%) translateY(-215%);
+}
+
+.card_d2{
+    position: relative;
+    transform: translateX(150%) translateY(-288%);
 }

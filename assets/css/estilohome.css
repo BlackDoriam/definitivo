@@ -333,6 +333,23 @@ div.personaje{
             background-position: -167px;
     }
 }    
+div.personaje2{
+    height: 40px ;
+    width: 49px;
+    background:url(/assets/Fondos/sonic.png);
+    margin-left: 34% ;
+    /* background-position: -42px 0; */
+    animation: sonic 0.9s steps(7) infinite;
+}
+@keyframes sonic {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -372px;
+    }
+} 
+
 
 .enlace{
     position: absolute;

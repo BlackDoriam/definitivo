@@ -48,6 +48,269 @@ h1::after{
     box-sizing: border-box;
 }
 
+.titulo_1{
+    transform: translateY(-200px);
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/*Cartas del home 1 */
+
+.card1{
+    transform: translateY(0px)  translateX(6em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card1 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card1 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+
+.card1 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card1 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card1 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card1 .back .link a {
+    color: #f3f3f3;
+}
+
+.card1 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card1 .back p {
+    letter-spacing: 1px;
+} 
+
+.card1:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card1:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*Cartas del home 2 */
+
+.card2{
+    transform: translateY(-23em)  translateX(30em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+}
+
+.card2 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card2 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card2 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card2 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card2 .back .link a {
+    color: #f3f3f3;
+}
+
+.card2 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card2 .back p {
+    letter-spacing: 1px;
+} 
+
+.card2:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*Cartas del home 3 */
+
+.card3{
+    transform: translateY(-46em)  translateX(55em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card3 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card3 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+
+.card3 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card3 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card3 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card3 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card3 .back .link a {
+    color: #f3f3f3;
+}
+
+.card3 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card3 .back p {
+    letter-spacing: 1px;
+} 
+
+.card3:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
 nav{
     background: #606060;
     height: 80px;
@@ -62,9 +325,9 @@ nav{
 }
 
 .text_prin{
-    width: 50%;
-    height: 70%;
-    transform: translateY(7em) translateX(45em);
+    width: 85%;
+    height: 95%;
+    transform: translateY(1em) translateX(6em);
     border-radius: 50px;
     border-style:solid;
     border-color:rgba(236,240,241,0.14);

@@ -500,7 +500,7 @@ footer{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: rgba(0, 0, 0, .4);
+    background: rgb(255, 255, 255);
     opacity: 0;
     transition: .5s;
 }
@@ -513,20 +513,26 @@ footer{
 .card:hover .content {
     opacity: 1;
 }
+
+.card_d0{
+    position: relative;
+    transform: translateX(100%) translateY(10%);
+  }
+  
 .card_d1{
   position: relative;
-  transform: translateX(300%) translateY(-215%);
+  transform: translateX(520%) translateY(-205%);
 }
 
 .card_d2{
-    position: relative;
-    transform: translateX(150%) translateY(-288%);
+    position: absolute;
+    transform: translateX(320%) translateY(-280%);
 }
 .card_d3{
-    position: relative;
-    transform: translateX(450%) translateY(-500%);
+  position: absolute;
+    transform: translateX(320%) translateY(-425%);
   }
-  .card_d4{
-    position: relative;
-    transform: translateX(620%) translateY(-713%);
+.card_d2{
+  position: absolute;
+    transform: translateX(320%) translateY(-315%);
   }

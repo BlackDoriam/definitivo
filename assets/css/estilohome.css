@@ -58,10 +58,9 @@ h1::after{
 .card1{
     transform: translateY(50px)  translateX(4em);
     position: relative;
-    width: 20%;
-    height: 64%;   
-    margin-left: 5%;
-    margin-top: 4%;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
 }
 
 .card1 .face {
@@ -145,11 +144,9 @@ h1::after{
 .card2{
     transform: translateY(-20em)  translateX(30em);
     position: relative;
-    width: 20%;
-    height: 64%;   
-    margin-left: 10%;
-    margin-top: 0rem;
-   
+    width: 300px;
+    height: 350px;
+    margin: 20px;
 }
 
 .card2 .face {
@@ -174,7 +171,6 @@ h1::after{
     height: 100%;
     object-fit: cover;
     left: 1px;
-    background-size: cover;
 }
 
 .card2 .front h3 {
@@ -233,10 +229,9 @@ h1::after{
 .card3{
     transform: translateY(-43em)  translateX(55em);
     position: relative;
-    width: 20%;
-    height: 64%;   
-    margin-left: 16%;
-    margin-top: 0rem;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
 }
 
 .card3 .face {
@@ -331,7 +326,7 @@ nav{
 }
 
 .text_prin{
-    width: 86%;
+    width: 85%;
     height: 65%;
     transform: translateY(5em) translateX(6em);
     border-radius: 50px;

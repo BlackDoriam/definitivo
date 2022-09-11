@@ -436,8 +436,16 @@ footer{
 }
 .cuadro_2{
     min-height:962px;
+    color: rgb(152, 121, 196);
 }
-
+.cuadro_3{
+    min-height:962px;
+    color: rgb(83, 255, 68);
+}
+.cuadro_4{
+    min-height:962px;
+    color: rgb(205, 54, 54);
+}
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -506,7 +514,7 @@ footer{
 }
 
 .content h2, a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(132, 0, 0, 0.8);
     margin: 10px 0;
 }
 

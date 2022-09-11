@@ -400,6 +400,17 @@ li a.active, li a:hover{
     display: none;
     
 }
+
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	border-right: 2px solid #b1b1b1;
+}
 #check{
     display: none;
 }

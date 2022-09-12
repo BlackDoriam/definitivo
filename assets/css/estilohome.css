@@ -348,7 +348,21 @@ div.personaje2{
             background-position: -372px;
     }
 } 
-
+div.personaje3{
+    height: 40px ;
+    width: 36px;
+    background:url(/assets/Fondos/link.png) ;
+    margin-left: 19% ;
+    animation: sonic 0.9s steps(10) infinite;
+}
+@keyframes sonic {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -384px;
+    }
+}    
 
 .enlace{
     position: absolute;

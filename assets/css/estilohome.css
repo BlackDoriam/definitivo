@@ -430,12 +430,12 @@ nav ul{
     margin-right: 20px;
 }
 .box nav .personaje1{
- transform:translatex(-151px) translatey(-6px);
+ transform:translatex(51px) translatey(-6px);
 }
 
 /* Personaje */
 .box nav .personaje{
- transform:translatex(363px) translatey(30px);
+ transform:translatex(253px) translatey(39px);
 }
 
 /* Personaje2 */

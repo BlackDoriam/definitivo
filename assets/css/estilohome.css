@@ -534,8 +534,10 @@ footer{
 }
 .hdvd{
     position: relative;
-    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
     top:-16px;
+ 
 }
 .game{
     position: relative;

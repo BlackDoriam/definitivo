@@ -871,3 +871,6 @@ footer{
     transform: perspective(600px) rotateY(360deg);
 }
 
+section.text_prin, section.cuadro_2, section.cuadro_3,section.cuadro_4 {
+    cursor: default;
+}

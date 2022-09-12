@@ -546,15 +546,23 @@ footer{
     transition: .5s;
 }
 
-.content h2, a {
-    color: rgba(132, 0, 0, 0.8);
+.content h2, h3, p, a {
+    color: rgba(0, 0, 0, 0.8);
     margin: 10px 0;
 }
 
-.card_d0, .card_d1, .card_d2, .card_d3:hover .content {
+.card_d0:hover .content {
     opacity: 1;
 }
-
+.card_d1:hover .content {
+    opacity: 1;
+}
+.card_d2:hover .content {
+    opacity: 1;
+}
+.card_d3:hover .content {
+    opacity: 1;
+}
 .card_d0{
     position: relative;
     transform: translateX(100%) translateY(10%);

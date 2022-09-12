@@ -823,3 +823,38 @@ footer{
     object-fit: cover;
     left: 1px;
 }
+<<<<<<< HEAD
+
+.card3 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card3 .back .link a {
+    color: #f3f3f3;
+}
+
+.card3 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card3 .back p {
+    letter-spacing: 1px;
+} 
+
+.card3:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+section.text_prin, section.cuadro_2, section.cuadro_3,section.cuadro_4 {
+    cursor: default;
+}
+=======
+>>>>>>> 9f8abe644319b7286110aece6cea96db0cdd6659

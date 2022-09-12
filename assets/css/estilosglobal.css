@@ -150,7 +150,9 @@ p{
  transform:translatex(470px) translatey(-6px);
  color: #dadada;
 }
-
+.content p{
+    transform:translatex(666px) translatey(96px) !important;
+   }
 /* Paragraph */
 p{
  transform:translatex(466px) translatey(-12px) !important;

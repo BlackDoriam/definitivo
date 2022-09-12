@@ -946,4 +946,8 @@ footer{
    .tex3 .cont3 h2{
     transform:translatex(54px) translatey(6px);
    }
+
+   section.text_prin, section.cuadro_2,h1, section.cuadro_3,p{
+    cursor: default;
+   }
    

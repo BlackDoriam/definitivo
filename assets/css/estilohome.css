@@ -429,6 +429,39 @@ nav ul{
     float: right;
     margin-right: 20px;
 }
+.box nav .personaje1{
+ transform:translatex(-151px) translatey(-6px);
+}
+
+/* Personaje */
+.box nav .personaje{
+ transform:translatex(363px) translatey(30px);
+}
+
+/* Personaje2 */
+.box nav .personaje2{
+ transform:translatex(-413px) translatey(-85px);
+}
+
+/* Navigation */
+.box nav{
+ height:71px;
+}
+
+/* Enlace */
+.box nav .enlace{
+ height:73px;
+ top:-23px;
+}
+
+@media (min-width:953px){
+
+ /* Enlace */
+ .box nav .enlace{
+  padding-left:42px;
+ }
+ 
+}
 nav ul li{
     display: inline-block;
     line-height: 80px;

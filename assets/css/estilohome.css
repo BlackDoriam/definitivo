@@ -338,7 +338,6 @@ div.personaje2{
     width: 49px;
     background:url(/assets/Fondos/sonic.png);
     margin-left: 34% ;
-    /* background-position: -42px 0; */
     animation: sonic 0.9s steps(7) infinite;
 }
 @keyframes sonic {

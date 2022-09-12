@@ -531,8 +531,7 @@ footer{
     color: rgb(83, 255, 68);
 }
 .cuadro_4{
-    min-height:962px;
-    color: rgb(205, 54, 54);
+    min-height:1000px;
 }
 @media (max-width: 858px){
     .checkbtn{

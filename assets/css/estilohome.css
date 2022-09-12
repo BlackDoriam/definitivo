@@ -313,47 +313,19 @@ h1::after{
 
 nav{
     background-image: url(/assets/Fondos/videojuegos.gif);
-    height: 80px;
+    height: 120px;
     width: 100%;
 
 }
 
+
 div.personaje{
-    height: 45px ;
-    width: 42px;
-    background:url(/assets/Fondos/vuela.png);
-    margin: 0 auto;
-    animation: volar 0.9s steps(4) infinite;
-}
-@keyframes volar {
-    0%{
-            background-position: 0px;
-    }
-    100%{
-            background-position: -167px;
-    }
-}    
-div.personaje2{
-    height: 40px ;
-    width: 49px;
-    background:url(/assets/Fondos/sonic.png);
-    margin-left: 34% ;
-    animation: sonic 0.9s steps(7) infinite;
-}
-@keyframes sonic {
-    0%{
-            background-position: 0px;
-    }
-    100%{
-            background-position: -372px;
-    }
-} 
-div.personaje3{
     height: 40px ;
     width: 36px;
-    background:url(/assets/Fondos/link.png) ;
-    margin-left: 19% ;
-    animation: sonic 0.9s steps(10) infinite;
+    background:url(/assets/Fondos/sonic.png) ;
+    margin-left: 44% ;
+    animation: sonic 0.9s steps(7) infinite;
+ 
 }
 @keyframes sonic {
     0%{
@@ -363,6 +335,38 @@ div.personaje3{
             background-position: -384px;
     }
 }    
+div.personaje1{
+    height: 40px ;
+    width: 36px;
+    background:url(/assets/Fondos/link.png) ;
+    margin-left: 18% ;
+    animation: link 0.9s steps(10) infinite;
+}
+@keyframes link {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -384px;
+    }
+}
+div.personaje2{
+    height: 45px ;
+    width: 42px;
+    background:url(/assets/Fondos/vuela.png);
+    margin-left: 65% ;
+    animation: volar 0.9s steps(4) infinite;
+  
+}
+@keyframes volar {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -167px;
+    }
+}
+    
 
 .enlace{
     position: absolute;
@@ -371,6 +375,10 @@ div.personaje3{
     left: -1px;
 
 }
+
+
+
+
 
 .text_prin{
     width: 85%;
@@ -420,6 +428,39 @@ div.personaje3{
 nav ul{
     float: right;
     margin-right: 20px;
+}
+.box nav .personaje1{
+ transform:translatex(-151px) translatey(-6px);
+}
+
+/* Personaje */
+.box nav .personaje{
+ transform:translatex(363px) translatey(30px);
+}
+
+/* Personaje2 */
+.box nav .personaje2{
+ transform:translatex(-413px) translatey(-85px);
+}
+
+/* Navigation */
+.box nav{
+ height:71px;
+}
+
+/* Enlace */
+.box nav .enlace{
+ height:73px;
+ top:-23px;
+}
+
+@media (min-width:953px){
+
+ /* Enlace */
+ .box nav .enlace{
+  padding-left:42px;
+ }
+ 
 }
 nav ul li{
     display: inline-block;
@@ -526,8 +567,10 @@ footer{
 }
 .hdvd{
     position: relative;
-    color:#fff;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
     top:-16px;
+ 
 }
 .game{
     position: relative;
@@ -561,7 +604,7 @@ footer{
 }
 
 .content h2, h3, p, a {
-    color: rgba(0, 0, 0, 0.8);
+    color: rgba(255, 255, 255, 0.8);
     margin: 10px 0;
 }
 

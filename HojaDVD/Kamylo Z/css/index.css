@@ -22,7 +22,7 @@ body{
 
 }
 .icon-facebook {
-    background: darkblue;
+    background: #C5D5EA;
 }
 .icon-twitter {
     background: rgb(0, 183, 255);
@@ -90,7 +90,7 @@ icon:last-child {
     
     height: 100%;
 
-    background: #41EAD4;
+    background: #759EB8;
     margin: 0%;
     padding: 20px;
     border-radius: 20px;
@@ -137,7 +137,7 @@ icon:last-child {
     
     height: 100%;
 
-    background: #581845;
+    background: #7392B7;
     margin: 0%;
     padding: 20px;
     border-radius: 20px;
@@ -183,7 +183,7 @@ icon:last-child {
     
     height: 100%;
 
-    background: #900c3f;
+    background: #B3C5D7;
     margin: 0%;
     padding: 20px;
     border-radius: 20px;
@@ -233,7 +233,7 @@ icon:last-child {
     
     height: 100%;
 
-    background: #c70039;
+    background: #D8E1E9;
     margin: 0%;
     padding: 20px;
     border-radius: 20px;
@@ -286,7 +286,7 @@ icon:last-child {
     
     height: 100%;
 
-    background: #ff5733;
+    background: #41EAD4;
     margin: 0%;
     padding: 20px;
     border-radius: 20px;

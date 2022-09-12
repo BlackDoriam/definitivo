@@ -28,7 +28,7 @@ source{
 .contenid{
   width: 100% ;
   max-width: 1400px;
-  margin: auto;  
+  margin: 0 auto;  
 }
 .menu{
     background-color: rgb(224, 187, 187);
@@ -113,7 +113,7 @@ h1{
     /* font-size: 40px; */
     text-align: center ;
 }
-th{
+th td.s1{
     margin-left: 90px;
     text-align:justify; 
     text-decoration: none;
@@ -133,24 +133,12 @@ table.cv td{
     width: 10%;
     text-align:justify;
   }
-
-
-
-
-
-
-
-
-
-
 section.f1 img{
 border-radius: 60%;
 position: relative;
 left: 29%;
 
 }
-
-
 
 section.f1{
     background-color: rgb(212, 212, 212);  

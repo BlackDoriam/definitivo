@@ -48,11 +48,326 @@ h1::after{
     box-sizing: border-box;
 }
 
-nav{
-    background: #606060;
-    height: 80px;
-    width: 100%;
+.titulo_1{
+    transform: translateY(-200px);
+    font-size: xx-large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/*Cartas del home 1 */
+
+.card1{
+    transform: translateY(50px)  translateX(4em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card1 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card1 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+
+.card1 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card1 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card1 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card1 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card1 .back .link a {
+    color: #f3f3f3;
+}
+
+.card1 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card1 .back p {
+    letter-spacing: 1px;
+} 
+
+.card1:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card1:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*Cartas del home 2 */
+
+.card2{
+    transform: translateY(-20em)  translateX(30em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card2 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+}
+
+.card2 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card2 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card2 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card2 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card2 .back .link a {
+    color: #f3f3f3;
+}
+
+.card2 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card2 .back p {
+    letter-spacing: 1px;
+} 
+
+.card2:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card2:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+/*Cartas del home 3 */
+
+.card3{
+    transform: translateY(-43em)  translateX(55em);
+    position: relative;
+    width: 300px;
+    height: 350px;
+    margin: 20px;
+}
+
+.card3 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.card3 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+
+.card3 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+.card3 .front h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.card3 .back {
+    transform: perspective(600px) rotateY(180deg);
+    background: rgb(3, 35, 54);
+    padding: 15px;
+    color: #f3f3f3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    box-shadow: 0 5px 10px #000;
+}
+
+.card3 .back .link {
+    border-top: solid 1px #f3f3f3;
+    height: 50px;
+    line-height: 50px;
+}
+
+.card3 .back .link a {
+    color: #f3f3f3;
+}
+
+.card3 .back h3 {
+    font-size: 30px;
+    margin-top: 20px;
+    letter-spacing: 2px;
+}
+
+.card3 .back p {
+    letter-spacing: 1px;
+} 
+
+.card3:hover .front {
+    transform: perspective(600px) rotateY(180deg);
+}
+
+.card3:hover .back {
+    transform: perspective(600px) rotateY(360deg);
+}
+
+
+nav{
+    background-image: url(/assets/Fondos/videojuegos.gif);
+    height: 120px;
+    width: 100%;
+
+}
+
+
+div.personaje{
+    height: 40px ;
+    width: 36px;
+    background:url(/assets/Fondos/sonic.png) ;
+    margin-left: 44% ;
+    animation: sonic 0.9s steps(7) infinite;
+ 
+}
+@keyframes sonic {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -384px;
+    }
+}    
+div.personaje1{
+    height: 40px ;
+    width: 36px;
+    background:url(/assets/Fondos/link.png) ;
+    margin-left: 18% ;
+    animation: link 0.9s steps(10) infinite;
+}
+@keyframes link {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -384px;
+    }
+}
+div.personaje2{
+    height: 45px ;
+    width: 42px;
+    background:url(/assets/Fondos/vuela.png);
+    margin-left: 65% ;
+    animation: volar 0.9s steps(4) infinite;
+  
+}
+@keyframes volar {
+    0%{
+            background-position: 0px;
+    }
+    100%{
+            background-position: -167px;
+    }
+}
+
+
 .enlace{
     position: absolute;
     padding: 20px 50px;
@@ -61,7 +376,21 @@ nav{
 
 }
 
-   
+
+
+
+
+.text_prin{
+    width: 85%;
+    height: 65%;
+    transform: translateY(5em) translateX(6em);
+    border-radius: 50px;
+    border-style:solid;
+    border-color:rgba(236,240,241,0.14);
+    backdrop-filter:blur(3.76px) contrast(0) invert(0.17);
+    color: #fff;
+
+}
 .Parrafo1{
     position: absolute;
     height: 50px;
@@ -76,10 +405,10 @@ nav{
 }
 .logoprin{
     position: absolute;
-    height: 500px;
-    width: 500px;
-    left: 100px;
-    top: 180px;
+    height: 500%;
+    width: 500%;
+    left: 100%;
+    top: 180%;
     border-radius: 80px;
 }
 .Titulo{
@@ -99,6 +428,40 @@ nav{
 nav ul{
     float: right;
     margin-right: 20px;
+}
+.box nav .personaje1{
+ transform:translatex(-151px) translatey(-6px);
+}
+
+/* Personaje */
+.box nav .personaje{
+ transform:translatex(363px) translatey(30px);
+}
+
+/* Personaje2 */
+.box nav .personaje2{
+ transform:translatex(-413px) translatey(-85px);
+}
+
+
+/* Navigation */
+.box nav{
+ height:71px;
+}
+
+/* Enlace */
+.box nav .enlace{
+ height:73px;
+ top:-23px;
+}
+
+@media (min-width:953px){
+
+ /* Enlace */
+ .box nav .enlace{
+  padding-left:42px;
+ }
+ 
 }
 nav ul li{
     display: inline-block;
@@ -126,11 +489,25 @@ li a.active, li a:hover{
     display: none;
     
 }
+.gameover{
+    height: 50px;
+    width: 50px;
+}
+body::-webkit-scrollbar {
+	width: 10px;
+	background: #000000;
+}
+
+body::-webkit-scrollbar-thumb {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 10px;
+	border-right: 2px solid #b1b1b1;
+}
 #check{
     display: none;
 }
 section{
-    background: url(/assets/Fondos/Fondo1.jpg) no-repeat;
+    background: url(/assets/Fondos/Fondo27.jpg) no-repeat;
     background-size: cover;
     background-position: center center;
     height: calc(100vh - 80.5px);
@@ -146,7 +523,17 @@ footer{
         font-size: 16px;
     }
 }
-
+.cuadro_2{
+    min-height:962px;
+    color: rgb(152, 121, 196);
+}
+.cuadro_3{
+    min-height:962px;
+    color: rgb(83, 255, 68);
+}
+.cuadro_4{
+    min-height:1000px;
+}
 @media (max-width: 858px){
     .checkbtn{
         display: block;
@@ -177,4 +564,328 @@ footer{
         left:0;
     }
     
+}
+.hdvd{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    top:-16px;
+ 
+}
+.game{
+    position: relative;
+    font-family: Arial, Helvetica, sans-serif;
+    color:white;
+    transform: translateX(-280%) translateY(50%);
+}
+
+/*cartas descarga*/
+.card_d0, .card_d1, .card_d2, .card_d3 {
+    margin: 20px;
+    width: 200px;
+    height: 300px;
+    border-radius: 5px;
+    background: var(--i);
+    background-size: cover;
+    box-shadow: 3px 5px 5px rgba(3, 32, 51, .8);
+    overflow: hidden;
+}
+
+.content {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(138, 138, 138, 0.593);
+    opacity: 0;
+    transition: .5s;
+}
+
+.content h2, h3, p, a {
+    color: rgba(255, 255, 255, 0.8);
+    margin: 10px 0;
+}
+
+.card_d0:hover .content {
+    opacity: 1;
+}
+.card_d1:hover .content {
+    opacity: 1;
+}
+.card_d2:hover .content {
+    opacity: 1;
+}
+.card_d3:hover .content {
+    opacity: 1;
+}
+.card_d0{
+    position: relative;
+    transform: translateX(100%) translateY(10%);
+  }
+  
+.card_d1{
+  position: relative;
+  transform: translateX(520%) translateY(-205%);
+}
+
+.card_d2{
+    position: absolute;
+    transform: translateX(320%) translateY(-280%);
+}
+.card_d3{
+  position: absolute;
+    transform: translateX(320%) translateY(-425%);
+  }
+.card_d2{
+  position: absolute;
+    transform: translateX(320%) translateY(-315%);
+  }
+  .Tarjeta1{
+    transform: translateY(50px)  translateX(4em);
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.Tarjeta1 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.Tarjeta1 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+.tex1{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 85vw;
+    overflow: hidden;
+    text-align: justify;
+    background: #ffffff;
+    height: 40vh;
+    margin: 5em;
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+}
+.cont{
+    grid-column: 3/10;
+    margin: 6em;
+    text-align: justify;
+}
+.cont p{
+    color: #000;
+    margin-right: -4em;
+    margin-top: -4em;
+    text-align: left;
+}
+.cont h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 8em;
+}
+
+.cuadro_4 h1{
+    font-size: 4em;
+    color: #f0f0f0;
+    text-align: center;
+    margin-top: -4em;
+}
+
+.Tarjeta1 .tex1 h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.Tarjeta1 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+
+/*Cartas del home 2 */
+
+.Tarjeta2{
+    transform: translateY(50px)  translateX(4em);
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.Tarjeta2 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.Tarjeta2 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+.tex2{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 85vw;
+    overflow: hidden;
+    text-align: justify;
+    background: #ffffff;
+    height: 40vh;
+    padding: 2em;
+    margin: 5em;
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+}
+.cont2{
+    grid-column: 3/10;
+    margin: 6em;
+    text-align: justify;
+}
+.cont2 p{
+    color: #000;
+    margin-right: -4em;
+    margin-top: -4em;
+    text-align: left;
+}
+.cont2 h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 8em;
+}
+
+.Tarjeta2 .tex h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.Tarjeta2 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
+}
+
+
+/*Cartas del home 3 */
+
+.Tarjeta3{
+    transform: translateY(50px)  translateX(4em);
+    position: relative;
+    width: 300px;
+    height: 200px;
+    margin: 20px;
+}
+
+.Tarjeta3 .face {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    border-radius: 10px;
+    overflow: hidden;
+    transition: .5s;
+}
+
+.Tarjeta3 .front {
+    transform: perspective(600px) rotateY(0deg);
+    box-shadow: 0 5px 10px #000;
+    transform: translateX(8px);
+
+}
+.tex3{
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    width: 85vw;
+    overflow: hidden;
+    text-align: justify;
+    background: #ffffff;
+    height: 40vh;
+    padding: 2em;
+    margin: 5em;
+    border-radius: 1em;
+    box-shadow: 0 5px 10px rgb(255, 255, 255);
+}
+.cont3{
+    grid-column: 3/10;
+    margin: 6em;
+    text-align: justify;
+}
+.cont3 p{
+    color: #000;
+    margin-right: -4em;
+    margin-top: -4em;
+    text-align: left;
+}
+.cont3 h2{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgb(0, 0, 0);
+    text-align: center;
+    margin-top: 8em;
+}
+
+.Tarjeta3 .tex h3 {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    background: rgba(0,0,0,.4);
+    text-align: center;
+}
+
+.Tarjeta3 .front img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    left: 1px;
 }

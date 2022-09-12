@@ -366,11 +366,7 @@ div.personaje2{
             background-position: -167px;
     }
 }
-div.personaje3{
-    background:url(/assets/Fondos/); 
-}
 
-    
 
 .enlace{
     position: absolute;
@@ -446,6 +442,7 @@ nav ul{
 .box nav .personaje2{
  transform:translatex(-413px) translatey(-85px);
 }
+
 
 /* Navigation */
 .box nav{

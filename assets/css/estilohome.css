@@ -817,7 +817,13 @@ footer{
     width: 300px;
     height: 200px;
     margin: 20px;
+
 }
+.cuadro_4 .Tarjeta3 .tex3{
+    height:218px;
+    margin-bottom:0px;
+   }
+   
 
 .Tarjeta3 .face {
     position: absolute;
@@ -889,3 +895,55 @@ footer{
     object-fit: cover;
     left: 1px;
 }
+
+
+/*posible*/
+
+/* Tex2 */
+.cuadro_4 .Tarjeta2 .tex2{
+    width:785px;
+    margin-right:0px;
+    margin-top:110px;
+   }
+   
+   /* Tex1 */
+   .cuadro_4 .Tarjeta1 .tex1{
+    margin-right:0px;
+    margin-top:0px;
+    margin-bottom:0px;
+    width:785px;
+   }
+   
+   /* Heading */
+   .tex1 .cont h2{
+    transform:translatex(75px) translatey(41px);
+    margin-top:0px;
+   }
+   
+   /* Cuadro 4 */
+   .cuadro_4{
+    transform:translatex(0px) translatey(0px);
+    width:100%;
+   }
+   
+   /* Heading */
+   .tex2 .cont2 h2{
+    margin-top:0px;
+    transform:translatex(63px) translatey(57px);
+    width:294px;
+   }
+   
+   .cuadro_4 .Tarjeta3 .tex3{
+    width:783px;
+   }
+   
+   /* Paragraph */
+   .tex3 .cont3 p{
+    transform:translatex(0px) translatey(-54px);
+   }
+   
+   /* Heading */
+   .tex3 .cont3 h2{
+    transform:translatex(54px) translatey(6px);
+   }
+   

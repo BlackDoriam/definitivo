@@ -642,7 +642,9 @@ footer{
   position: absolute;
     transform: translateX(320%) translateY(-315%);
   }
-  .Tarjeta1{
+  .Tarjeta1,
+  .Tarjeta2,
+  .Tarjeta3{
     transform: translateY(50px)  translateX(4em);
     position: relative;
     width: 300px;
@@ -650,7 +652,9 @@ footer{
     margin: 20px;
 }
 
-.Tarjeta1 .face {
+.Tarjeta1 .face,
+.Tarjeta2 .face,
+.Tarjeta3 .face {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -660,13 +664,17 @@ footer{
     transition: .5s;
 }
 
-.Tarjeta1 .front {
+.Tarjeta1 .front,
+.Tarjeta2 .front
+.Tarjeta3 .front {
     transform: perspective(600px) rotateY(0deg);
     box-shadow: 0 5px 10px #000;
     transform: translateX(8px);
 
 }
-.tex1{
+.tex1,
+.tex2,
+.tex3{
     display: grid;
     grid-template-columns: repeat(9, 1fr);
     width: 85vw;
@@ -678,18 +686,24 @@ footer{
     border-radius: 1em;
     box-shadow: 0 5px 10px rgb(255, 255, 255);
 }
-.cont{
+.cont,
+.cont2,
+.cont3{
     grid-column: 3/10;
     margin: 6em;
     text-align: justify;
 }
-.cont p{
+.cont p,
+.cont2 p,
+.cont3 p{
     color: #000;
     margin-right: -4em;
     margin-top: -4em;
     text-align: left;
 }
-.cont h2{
+.cont h2,
+.cont2 h2,
+.cont3 h2{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -708,7 +722,9 @@ footer{
     margin-top: -4em;
 }
 
-.Tarjeta1 .tex1 h3 {
+.Tarjeta1 .tex1 h3,
+.Tarjeta2 .tex2 h3,
+.Tarjeta3 .tex3 h3{
     position: absolute;
     bottom: 0;
     width: 100%;
@@ -718,89 +734,9 @@ footer{
     text-align: center;
 }
 
-.Tarjeta1 .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    left: 1px;
-}
-
-
-/*Cartas del home 2 */
-
-.Tarjeta2{
-    transform: translateY(50px)  translateX(4em);
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-}
-
-.Tarjeta2 .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.Tarjeta2 .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-    transform: translateX(8px);
-
-}
-.tex2{
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    width: 85vw;
-    overflow: hidden;
-    text-align: justify;
-    background: #ffffff;
-    height: 40vh;
-    padding: 2em;
-    margin: 5em;
-    border-radius: 1em;
-    box-shadow: 0 5px 10px rgb(255, 255, 255);
-}
-.cont2{
-    grid-column: 3/10;
-    margin: 6em;
-    text-align: justify;
-}
-.cont2 p{
-    color: #000;
-    margin-right: -4em;
-    margin-top: -4em;
-    text-align: left;
-}
-.cont2 h2{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 8em;
-}
-
-.Tarjeta2 .tex h3 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0,0,0,.4);
-    text-align: center;
-}
-
-.Tarjeta2 .front img {
+.Tarjeta1 .front img,
+.Tarjeta2 .front img,
+.Tarjeta3 .front img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -810,91 +746,10 @@ footer{
 
 
 /*Cartas del home 3 */
-
-.Tarjeta3{
-    transform: translateY(50px)  translateX(4em);
-    position: relative;
-    width: 300px;
-    height: 200px;
-    margin: 20px;
-
-}
 .cuadro_4 .Tarjeta3 .tex3{
     height:218px;
     margin-bottom:0px;
    }
-   
-
-.Tarjeta3 .face {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    backface-visibility: hidden;
-    border-radius: 10px;
-    overflow: hidden;
-    transition: .5s;
-}
-
-.Tarjeta3 .front {
-    transform: perspective(600px) rotateY(0deg);
-    box-shadow: 0 5px 10px #000;
-    transform: translateX(8px);
-
-}
-.tex3{
-    display: grid;
-    grid-template-columns: repeat(9, 1fr);
-    width: 85vw;
-    overflow: hidden;
-    text-align: justify;
-    background: #ffffff;
-    height: 40vh;
-    padding: 2em;
-    margin: 5em;
-    border-radius: 1em;
-    box-shadow: 0 5px 10px rgb(255, 255, 255);
-}
-.cont3{
-    grid-column: 3/10;
-    margin: 6em;
-    text-align: justify;
-}
-.cont3 p{
-    color: #000;
-    margin-right: -4em;
-    margin-top: -4em;
-    text-align: left;
-}
-.cont3 h2{
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgb(0, 0, 0);
-    text-align: center;
-    margin-top: 8em;
-}
-
-.Tarjeta3 .tex h3 {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    height: 45px;
-    line-height: 45px;
-    color: #fff;
-    background: rgba(0,0,0,.4);
-    text-align: center;
-}
-
-.Tarjeta3 .front img {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    left: 1px;
-}
 
 
 /*posible*/

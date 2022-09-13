@@ -55,12 +55,15 @@ h1::after{
 }
 /*Cartas del home 1 */
 
-.card1{
-    transform: translateY(50px)  translateX(4em);
+.card1,
+.card2,
+.card3{
+    transform: translateY(60px)  translateX(4em);
     position: relative;
     width: 300px;
     height: 350px;
-    margin: 20px;
+    margin: 10px;
+    display: inline-flex;
 }
 
 .card1 .face {
@@ -99,10 +102,12 @@ h1::after{
     text-align: center;
 }
 
-.card1 .back {
-    transform: perspective(600px) rotateY(180deg);
+.card1 .back,
+.card2 .back,
+.card3 .back {
+    transform: perspective(700px) rotateY(180deg);
     background: rgb(3, 35, 54);
-    padding: 15px;
+    padding: 10px;
     color: #f3f3f3;
     display: flex;
     flex-direction: column;
@@ -141,13 +146,7 @@ h1::after{
 
 /*Cartas del home 2 */
 
-.card2{
-    transform: translateY(-20em)  translateX(30em);
-    position: relative;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
-}
+
 
 .card2 .face {
     position: absolute;
@@ -184,17 +183,7 @@ h1::after{
     text-align: center;
 }
 
-.card2 .back {
-    transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    padding: 15px;
-    color: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
-}
+
 
 .card2 .back .link {
     border-top: solid 1px #f3f3f3;
@@ -226,13 +215,6 @@ h1::after{
 
 /*Cartas del home 3 */
 
-.card3{
-    transform: translateY(-43em)  translateX(55em);
-    position: relative;
-    width: 300px;
-    height: 350px;
-    margin: 20px;
-}
 
 .card3 .face {
     position: absolute;
@@ -270,17 +252,7 @@ h1::after{
     text-align: center;
 }
 
-.card3 .back {
-    transform: perspective(600px) rotateY(180deg);
-    background: rgb(3, 35, 54);
-    padding: 15px;
-    color: #f3f3f3;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-align: center;
-    box-shadow: 0 5px 10px #000;
-}
+
 
 .card3 .back .link {
     border-top: solid 1px #f3f3f3;
@@ -312,20 +284,9 @@ h1::after{
 
 
 nav{
-    background-image: url(/assets/Fondos/videojuegos.gif);
     height: 120px;
     width: 100%;
 
-}
-
-
-div.personaje{
-    height: 40px ;
-    width: 36px;
-    background:url(/assets/Fondos/sonic.png) ;
-    margin-left: 44% ;
-    animation: sonic 0.9s steps(7) infinite;
- 
 }
 @keyframes sonic {
     0%{
@@ -335,13 +296,7 @@ div.personaje{
             background-position: -384px;
     }
 }    
-div.personaje1{
-    height: 40px ;
-    width: 36px;
-    background:url(/assets/Fondos/link.png) ;
-    margin-left: 18% ;
-    animation: link 0.9s steps(10) infinite;
-}
+
 @keyframes link {
     0%{
             background-position: 0px;
@@ -349,14 +304,6 @@ div.personaje1{
     100%{
             background-position: -384px;
     }
-}
-div.personaje2{
-    height: 45px ;
-    width: 42px;
-    background:url(/assets/Fondos/vuela.png);
-    margin-left: 65% ;
-    animation: volar 0.9s steps(4) infinite;
-  
 }
 @keyframes volar {
     0%{
@@ -375,11 +322,6 @@ div.personaje2{
     left: -1px;
 
 }
-
-
-
-
-
 .text_prin{
     width: 85%;
     height: 65%;
@@ -429,21 +371,10 @@ nav ul{
     float: right;
     margin-right: 20px;
 }
-.box nav .personaje1{
- transform:translatex(51px) translatey(-6px);
+
+.box{
+    background-color: black;
 }
-
-/* Personaje */
-.box nav .personaje{
- transform:translatex(253px) translatey(39px);
-}
-
-/* Personaje2 */
-.box nav .personaje2{
- transform:translatex(-413px) translatey(-85px);
-}
-
-
 /* Navigation */
 .box nav{
  height:71px;
@@ -476,7 +407,6 @@ nav ul li a{
     text-transform: uppercase;
 }
 li a.active, li a:hover{
-    background: #4747ff;
     transition: .5s;
 }
 .checkbtn{

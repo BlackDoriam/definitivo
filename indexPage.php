@@ -40,7 +40,7 @@ echo '
               <li><a class="active" href="indexPage.php">Inicio</a></li>
      
             <li><a  href="./Formulario.html">Usuarios</a></li>
-            <li><a  href="">Usuarios</a></li>
+            <li><a  href="./Usuarios/usuarios.php">Usuarios</a></li>
         </ul>
     </nav>
 

@@ -329,10 +329,34 @@ nav{
     border-radius: 50px;
     border-style:solid;
     border-color:rgba(236,240,241,0.14);
-    backdrop-filter:blur(3.76px) contrast(0) invert(0.17);
-    color: #fff;
 
 }
+/* Heading */
+.tex3 .cont h2{
+    transform:translatex(63px) translatey(44px);
+    margin-top:0px;
+   }
+   
+   /* Tex3 */
+   .cuadro_4 .Tarjeta2 .tex3{
+    margin-bottom:0px;
+    margin-right:0px;
+   }
+   
+   /* Form Division */
+   .cuadro_4 form{
+    transform:translatex(0px) translatey(176px);
+   }
+   
+   /* Text prin */
+   section .text_prin{
+    background-image:none !important;
+    backdrop-filter:blur(15px) brightness(1.56);
+    background-size:auto;
+    color:rgb(255, 255, 255);
+    background-clip:padding-box;
+   }
+   
 .Parrafo1{
     position: absolute;
     height: 50px;
@@ -588,7 +612,7 @@ footer{
     position: absolute;
     width: 100%;
     height: 100%;
-    backface-visibility: hidden;
+
     border-radius: 10px;
     overflow: hidden;
     transition: .5s;
@@ -661,14 +685,15 @@ footer{
     bottom: 0;
     width: 100%;
     line-height: 45px;
-    color: #fff;
+ 
     background: rgba(0,0,0,.4);
     text-align: center;
 }
 
 .Tarjeta1 .front img,
 .Tarjeta2 .front img,
-.Tarjeta3 .front img {
+.Tarjeta3 .front img,
+.Tarjeta4 .front img {
     position: absolute;
     width: 100%;
     height: 100%;
@@ -720,9 +745,7 @@ footer{
     width:294px;
    }
    
-   .cuadro_4 .Tarjeta3 .tex3{
-    width:783px;
-   }
+
    
    /* Paragraph */
    .tex3 .cont3 p{

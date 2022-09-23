@@ -51,7 +51,7 @@ echo '
 
     <section  style="background-image: url(./assets/Fondos/Fondo27.jpg) ">
         
-        <section class="text_prin" style="background-image: url(./assets/Fondos/Fondo18.jpg)">
+        <section class="text_prin">
             
             <div class="card1">
                 <div class="face front">
@@ -203,7 +203,7 @@ echo '
         </div>
     </div>
 </section>
-    <section class="cuadro_3"  style="background: url(./assets/Fondos/Fondo27.jpg) ">
+    <section class="cuadro_3"  style="  background: url(./assets/Fondos/Fondo27.jpg) ">
         <h1>VideoJuegos</h1>
         <p><br><br>
             Durante bastante tiempo ha sido <br>complicado señalar cual fue el primer videojuego, principalmente debido a las múltiples<br> definiciones de este que se han ido estableciendo, pero se puede considerar como primer <br>videojuego el Nought and crosses, también llamado OXO, desarrollado por Alexander S.Douglas en 1952. <br><br>El juego era una versión computerizada del tres en raya que se ejecutaba <br>sobre la EDSAC y permitía enfrentar a un jugador humano contra la máquina.<br><br>
@@ -215,7 +215,7 @@ echo '
 </p>
     </section>
     
-    <section class="cuadro_4" >
+    <section class="cuadro_4" style="background-image: url(./assets/Fondos/Fondo27.jpg) ">
       
         <h1>Discuciones</h1>
             <div class="Tarjeta1">
@@ -271,10 +271,10 @@ echo '
 </div>
 </main>
 </section>
-<section class="encima">
+<section class="encima" style="background-image: url(./assets/Fondos/Fondo27.jpg) ">
     <img src="./assets/Recursos/spidergay.gif" width="30%"  alt="spider">
 </section>
-    <footer  style="background-image: url(/assets/Fondos/es.gif);">
+    <footer  style="background-image: url(./assets/Fondos/es.gif);">
         <div class="footer">
             <div class="footer-contentr">
                 <h1 class="game">GAME <span> OVER?</span></h1>
@@ -284,7 +284,6 @@ echo '
       </div>
     </div>
     </footer>
-    <!-- <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a> -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="./assets/Js/app.js"></script>

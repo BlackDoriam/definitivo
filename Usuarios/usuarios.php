@@ -10,7 +10,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Usuarios Registrados</title>
-    <link rel="stylesheet" href="../assets/css/estilosglobal.css">
+    <link rel="stylesheet" href="../assets/css/usuarios.css">
     <link rel="shortcut icon" href="../assets/Perfil/logo.png">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
@@ -18,7 +18,7 @@
 <body style=" background-image: url(../assets/Fondos/Fondo4.jpg)">
 <h1 class="header-title">Usuarios registrados en base de datos</h1>
 <br>
-<table>
+<table id="tabla1">
 <tr>
     <th>id</th>
     <th>nombre</th>

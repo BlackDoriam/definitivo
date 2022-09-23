@@ -204,7 +204,33 @@ p{
     transform:translatex(330px) translatey(8.7998046875px);
     width:807px;
 }
-
+/*tabla*/
+table{
+    transform:translatex(509px) translatey(56px);
+    min-height:239px;
+    width:491px;
+    color:#ffffff;
+    backdrop-filter:blur(7.41px);
+   }
+   
+.volver{
+    text-align: center;
+    position:absolute;
+    top: 96%;
+    left: 50%;
+    color: #ad9fd2;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.Tituloc{
+    position: absolute;
+    width:309px !important;
+    transform:translatex(784px) translatey(64px);
+    width: 90%;
+    left: 30px;
+    top: 180px;
+    color: #c0c0c0;
+    font-size:40px;
+}
 
 /* FORMULARIO */
 

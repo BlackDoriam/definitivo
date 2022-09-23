@@ -16,10 +16,10 @@ header("Location:indexPage.php");
     <link
         href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/estiloscajas.css">
 </head>
 
-<body style=" background-image: url(./assets/Fondos/Fondo1.jpg)">
+<body style=" background-image: url(./assets/Fondos/Fondo8.jpg)">
     <main>
         <div class="contenedor__todo">
             <div class="caja__trasera">

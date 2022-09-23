@@ -651,7 +651,9 @@ footer{
     text-align: center;
     margin-top: -4em;
 }
-
+.cuadro_4 .Tarjeta2 .tex3{
+    width:782px;
+   }
 .Tarjeta1 .tex1 h3,
 .Tarjeta2 .tex2 h3,
 .Tarjeta3 .tex3 h3{

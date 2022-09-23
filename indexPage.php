@@ -203,7 +203,7 @@ echo '
         </div>
     </div>
 </section>
-    <section class="cuadro_3"  style="  background: url(./assets/Fondos/Fondo27.jpg) ">
+    <section class="cuadro_3"  style="background: url(./assets/Fondos/Fondo27.jpg) ">
         <h1>VideoJuegos</h1>
         <p><br><br>
             Durante bastante tiempo ha sido <br>complicado señalar cual fue el primer videojuego, principalmente debido a las múltiples<br> definiciones de este que se han ido estableciendo, pero se puede considerar como primer <br>videojuego el Nought and crosses, también llamado OXO, desarrollado por Alexander S.Douglas en 1952. <br><br>El juego era una versión computerizada del tres en raya que se ejecutaba <br>sobre la EDSAC y permitía enfrentar a un jugador humano contra la máquina.<br><br>

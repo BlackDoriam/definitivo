@@ -37,7 +37,7 @@ header("Location:indexPage.php");
             <!--Formulario de Login y registro-->
             <div class="contenedor__login-register">
                 <!--Login-->
-                <form action="assets/php/login_usuario.php" method="post" class="formulario__login">
+                <form action="./assets/php/login_usuario.php" method="post" class="formulario__login">
                     <h2>Iniciar Sesión</h2>
                     <input type="text" placeholder="Correo Electronico" name="correo">
                         <input type="password" placeholder="Contraseña" name="contraseña">

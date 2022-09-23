@@ -21,8 +21,8 @@ echo '
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HOME</title>
     <link rel="shortcut icon" href="./assets/Fondos/Fondo17.jpg">
-    <link rel="stylesheet" href="/assets/css/estilohome.css">
-    <link rel="stylesheet" href="/assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/estilohome.css">
+    <link rel="stylesheet" href="./assets/css/estilos.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
@@ -36,12 +36,12 @@ echo '
         <a href="/indexPage.html" class="enlace">
             <img src="/assets/Fondos/Fondo14.jpg" alt="fondo" class="logo">
         </a>
-        <ul>
-            <li><a class="active" href="indexPage.html">Inicio</a></li>
-            <li><a  href="./Formulario.html">Formulario</a></li>
-            <li><a  href="Hojas.html">Hojas de vidas</a></li>
+        <ul>       
+              <li><a class="active" href="indexPage.php">Inicio</a></li>
+     
+            <li><a  href="./Formulario.html">Usuarios</a></li>
+            <li><a  href="">Usuarios</a></li>
         </ul>
-
     </nav>
 
 

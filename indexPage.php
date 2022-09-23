@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 <!-- <?php
+=======
+<?php
+>>>>>>> 9eb721bf2333e8a708eb0e336934db43c2892f7a
 session_start() ;
 if(isset($_SESSION['usuario'] )){
 echo '
@@ -10,7 +14,12 @@ echo '
     session_destroy();
     die();
 }
+<<<<<<< HEAD
 ?> -->
+=======
+?>
+
+>>>>>>> 9eb721bf2333e8a708eb0e336934db43c2892f7a
 
 <!DOCTYPE html>
 <HTML lang="es">

@@ -23,10 +23,14 @@ echo '
     <link rel="shortcut icon" href="./assets/Fondos/Fondo17.jpg">
     <link rel="stylesheet" href="./assets/css/estilohome.css">
     <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link rel="stylesheet" href="./assets/css/layout.css">
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
+<a id="backtotop" href="#top" class="visible">
+    <i class="fas fa-chevron-up">
+    </i></a>
     <div class="box">
     <nav>
         <input type="checkbox" id="check">
@@ -43,9 +47,6 @@ echo '
             <li><a  href="./Usuarios/usuarios.php">Usuarios</a></li>
         </ul>
     </nav>
-
-
-
 
 </div>
 
@@ -274,7 +275,42 @@ echo '
 <section class="encima" style="background-image: url(./assets/Fondos/Fondo27.jpg) ">
     <img src="./assets/Recursos/spidergay.gif" width="30%"  alt="spider">
 </section>
-    <footer  style="background-image: url(./assets/Fondos/es.gif);">
+<footer id="footer" class="hoc clear" > 
+ 
+ <div class="one_quarter first">
+   <h6 class="heading">Hacerca de nosotros</h6>
+   <p>El laboratorio de paz, convivencia y seguridad ciudadana es una estrategia social nacida despues de la muerte del para militar Walter Patricio Vivas Amorocho mas conocido como "Alias Guacho"<a href="#">&hellip;</a>]</p>
+   <ul class="faico clear">
+     <li><a class="faicon-facebook" href="https://www.facebook.com/ConviveciaCienciaYEducacion"><i class="fab fa-facebook"></i></a></li>
+     <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
+     <li><a class="faicon-whatsapp" href="#"><i class="fab fa-whatsapp"></i></a></li>
+     <li><a class="faicon-instagram" href="https://www.instagram.com/laboratorio_oficial/"><i class="fab fa-instagram"></i></a></li>
+   </ul>
+ </div>
+ <div class="one_quarter">
+   <h6 class="heading1">¿Quieres que te contactemos?</h6>
+   <p class="nospace btmspace-15">Porfavor dejanos tus datos, nos comunicaremos con tigo.</p>
+   <form action="#" method="post">
+     <fieldset>
+       <legend>Formulario:</legend>
+       <input class="btmspace-15" type="text" value="" placeholder="Nombre">
+       <input class="btmspace-15" type="text" value="" placeholder="Motivo">
+       <input class="btmspace-15" type="text" value="" placeholder="Email">
+       <button class="btn" type="submit" value="submit">Enviar</button>
+     </fieldset>
+   </form>
+ </div>
+     <li>
+       <article>
+         <h6 class="nospace font-x1"><a href="#">Desarrolladores</a></h6>
+         <time class="font-xs block btmspace-10" ></time>
+         <p class="nospace"> Josep Felipe Lara Angulo<br><br> Jhon Alexander Varela Tenorio <br><br> Camilo Abel Sol Mosquera</p>
+       </article>
+     </li>
+   </ul>
+ </div>
+</footer>
+    <!-- <footer  style="background-image: url(./assets/Fondos/es.gif);">
         <div class="footer">
             <div class="footer-contentr">
                 <h1 class="game">GAME <span> OVER?</span></h1>
@@ -283,7 +319,11 @@ echo '
             </div>
       </div>
     </div>
-    </footer>
+    </footer> -->
+    <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
+<script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/jquery.backtotop.js"></script>
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 	<script src="./assets/Js/app.js"></script>

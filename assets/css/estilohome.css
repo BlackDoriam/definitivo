@@ -761,3 +761,71 @@ footer{
     cursor: default;
    }
    
+   /*footer*/
+
+   /* Fieldset */
+#footer form fieldset{
+    transform:translatex(662px) translatey(-185px);
+    margin-right:0px;
+    width:389px;
+    min-height:262px;
+   }
+   
+   /* Footer */
+   #footer{
+    width:1140px;
+    transform:translatex(-20px) translatey(21px);
+    padding-top:0px;
+    display:inline-block;
+    padding-bottom:0px;
+    height:502px;
+   }
+   
+   /* Form Division */
+   #footer form{
+    width:570px;
+    transform:translatex(21px) translatey(3px);
+    height:160px;
+   }
+   
+   /* One quarter */
+   #footer .one_quarter{
+    height:191px;
+   }
+   
+   /* Article */
+   .linklist li article{
+    transform:translatex(586px) translatey(-112px);
+    display:inline-block;
+   }
+   
+   /* Article */
+   #footer .one_quarter .linklist li article{
+    width:54% !important;
+   }
+   
+   /* Heading */
+   #footer .heading{
+    margin-bottom:27px;
+    min-height:66px;
+    transform:translatex(143px) translatey(22px);
+   }
+   
+   /* Paragraph */
+   #footer p{
+    transform:translatex(19px) translatey(-16px);
+   }
+   
+   /* Heading */
+   #footer .one_quarter .heading{
+    width:52% !important;
+   }
+   
+   @media (min-width:751px){
+   
+    /* One quarter */
+    #footer .one_quarter{
+     width:52%;
+    }
+    
+   }

@@ -19,7 +19,7 @@ header("Location:indexPage.php");
     <link rel="stylesheet" href="./assets/css/estiloscajas.css">
 </head>
 
-<body style=" background-image: url(./assets/Fondos/Fondo8.jpg)">
+<body style=" background-image: url(./assets/Fondos/Fondo31.jpg)">
     <main>
         <div class="contenedor__todo">
             <div class="caja__trasera">

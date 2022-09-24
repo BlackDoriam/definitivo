@@ -61,7 +61,56 @@ icon:last-child {
     
     margin-bottom: 2%;
     
-
+/* Info */
+.info{
+    width:968px;
+    transform:translatex(469px) translatey(-248px);
+    min-height:193px;
+    height:193px;
+    background-color:rgba(98,158,218,0.29);
+   }
+   
+   /* Info2 */
+   .info2{
+    width:685px;
+    transform:translatex(433px) translatey(-203px);
+   }
+   
+   /* Info3 */
+   .info3{
+    width:870px;
+    transform:translatex(366px) translatey(-166px);
+    padding-right:0px;
+   }
+   
+   /* Info4 */
+   .info4{
+    width:862px;
+    transform:translatex(370px) translatey(-129px);
+    padding-right:1px;
+   }
+   
+   /* Info5 */
+   .info5{
+    width:831px;
+    transform:translatex(381px) translatey(-92.2000732421875px);
+   }
+   
+   .principio .contenido{
+    height:231px;
+   }
+   
+   /* Principio */
+   .principio{
+    min-height:453px;
+   }
+   
+   /* Body */
+   body{
+    background-color:#000005;
+   }
+   
+   
 }
 .principio .contenido .parra2{
     color:whitesmoke;

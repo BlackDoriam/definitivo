@@ -1,0 +1,20 @@
+.content p{
+    transform:translatex(463px) translatey(128px) !important;
+    backdrop-filter:blur(5.79px);
+    border-top-left-radius:20px;
+    border-top-right-radius:20px;
+    border-bottom-left-radius:20px;
+    border-bottom-right-radius:20px;
+    border-style:solid;
+    border-color:#ffffff;
+   }
+   
+   /* Bold Tag */
+   .content p b{
+    display:inline-block;
+    transform:translatex(0px) translatey(-67px);
+    color:#ffffff;
+    font-family:Arial,'Helvetica Neue',Helvetica,sans-serif;
+   }
+   
+   

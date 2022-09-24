@@ -129,83 +129,50 @@
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
 /* Button */
-#footer form .btn{
-	transform:translatex(5px) translatey(65px);
-   }
+#footer form .btn{transform:translatex(5px) translatey(65px);}
    
    /* Input */
-   #footer form input[type=text]{
-	width:286px;
-	transform:translatex(65px) translatey(15px);
-   }
+   #footer form input[type=text]{width:286px;transform:translatex(65px) translatey(15px);}
    
    /* Heading */
-   #footer .one_quarter h6{
-	height:51px !important;
-   }
+   #footer .one_quarter h6{height:51px !important;}
    
    /* Nospace */
-   #footer .one_quarter .nospace{
-	min-height:45px;
-	transform:translatex(694px) translatey(-291px);
-	width:74% !important;
-   }
+   #footer .one_quarter .nospace{min-height:45px;transform:translatex(694px) translatey(-291px);width:74% !important;}
    
-   
+   #footer{border-top-left-radius:17px;border-top-right-radius:17px;border-bottom-left-radius:17px;border-bottom-right-radius:17px;}
 
+   #footer{background-image:none;backdrop-filter:blur(9.94px) brightness(1.28) contrast(1.07);border-width:3px;border-color:rgba(255,255,255,0.09)border-style:solid;padding-bottom:0px;color:#ffffff;}
+   
 /* Fieldset */
-#footer form fieldset{
-	transform:translatex(697px) translatey(-298px);
-   }
+#footer form fieldset{transform:translatex(697px) translatey(-298px);}
    
    /* Nospace */
-   #footer li p.nospace{
-	width:389px;
-	transform:translatex(719px) translatey(-8px);
-   }
+   #footer li p.nospace{width:389px;transform:translatex(719px) translatey(-8px);}
    
    /* Heading */
-   #footer .heading{
-	transform:translatex(166px) translatey(-34px);
-	margin-bottom:0px;
-   }
+   #footer .heading{transform:translatex(166px) translatey(-34px);margin-bottom:0px;}
    
    /* Paragraph */
-   #footer .one_quarter p{
-	transform:translatex(21px) translatey(-51px);
-   }
+   #footer .one_quarter p{transform:translatex(21px) translatey(-51px);}
    
    /* List */
-   #footer ul{
-	transform:translatex(163px) translatey(155px);
-   }
+   #footer ul{transform:translatex(163px) translatey(155px);}
    
    /* Heading */
-   #footer .one_quarter h6{
-	height:9px !important;
-   }
+   #footer .one_quarter h6{height:9px !important;}
    
    /* Form Division */
-   #footer form{
-	transform:translatex(25px) translatey(-4px);
-   }
+   #footer form{transform:translatex(25px) translatey(-4px);}
    
    /* Nospace */
-   #footer li h6.nospace{
-	display:none;
-   }
+   #footer li h6.nospace{display:none; }
    
    /* Article */
-   #footer li article{
-	transform:translatex(0px) translatey(-62px);
-	height:65px;
-   }
+   #footer li article{transform:translatex(0px) translatey(-62px);height:65px;}
    
    /* List Item */
-   #footer li{
-	transform:translatex(3px) translatey(-51px);
-   }
-   
+   #footer li{transform:translatex(3px) translatey(-51px);}
    @media (min-width:859px){
    
 	/* List */

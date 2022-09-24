@@ -30,7 +30,8 @@ echo '
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
-<body>
+MUNDO GAMING
+<body style="background-image: url(./assets/Fondos/Fondo27.jpg) ">
 <a id="backtotop" href="#top" class="visible">
     <i class="fas fa-chevron-up">
     </i></a>
@@ -40,13 +41,13 @@ echo '
         <label for="check" class="checkbtn">
             <img src="/assets/Recursos/celloption.png"></i>
         </label>
-        <a href="/indexPage.html" class="enlace">
-            <img src="/assets/Fondos/Fondo14.jpg" alt="fondo" class="logo">
+        <a href="/indexPage.php" class="enlace">
+            <img src="./assets/Fondos/Fondo14.jpg" alt="fondo" class="logo">
         </a>
         <ul>       
               <li><a class="active" href="indexPage.php">Inicio</a></li>
      
-            <li><a  href="./Formulario.html">Usuarios</a></li>
+            <li><a  href="./Formulario.html">Formulario</a></li>
             <li><a  href="./Usuarios/usuarios.php">Usuarios</a></li>
         </ul>
     </nav>
@@ -133,12 +134,10 @@ echo '
         <img src="./assets/Fondos/Fondo15.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
           <h3>Tokio ghoul</h3>
-          <p>We love the Big Apple!</p>
+          <p>Comer o se comido</p>
         </div>
       </div>
-  
     </div>
-
     <!-- Left and right controls -->
     <a class="left carousel-control" href="#myCarousel" data-slide="prev">
       <span class="glyphicon glyphicon-chevron-left"></span>
@@ -342,7 +341,7 @@ echo '
    </ul>
  </div>
  <div class="one_quarter">
-   <h6 class="heading1">¿Quieres que te contactemos?</h6>
+   <h6 class="heading1">Redes sociales</h6>
    <p class="nospace btmspace-15">Porfavor dejanos tus datos, nos comunicaremos con tigo.</p>
    <form action="#" method="post">
      <fieldset>
@@ -358,7 +357,8 @@ echo '
        <article>
          <h6 class="nospace font-x1"><a href="#">Desarrolladores</a></h6>
          <time class="font-xs block btmspace-10" ></time>
-         <p class="nospace"> Josep Felipe Lara Angulo<br><br> Jhon Alexander Varela Tenorio <br><br> Camilo Abel Sol Mosquera</p>
+         <br><br>
+         <p class="nospace"><a  href="./Hojas.html"> Hojas de vida</a></p>
        </article>
      </li>
    </ul>

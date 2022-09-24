@@ -116,23 +116,23 @@ echo '
       <div class="item active">
         <img src="./assets/Fondos/Fondo10.jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Los Angeles</h3>
-          <p>LA is always so much fun!</p>
+          <h3>Naruto</h3>
+          <p>Pruebas tus habilidades ninja</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="./assets/Fondos/Fondo12.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/Fondos/Fondo18.jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Chicago</h3>
-          <p>Thank you, Chicago!</p>
+          <h3>Dragon ball z</h3>
+          <p>Demuestra que eres el SSJ mas poderozo</p>
         </div>
       </div>
     
       <div class="item">
-        <img src="./assets/Fondos/Fondo13.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/Fondos/Fondo15.jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
-          <h3>New York</h3>
+          <h3>Tokio ghoul</h3>
           <p>We love the Big Apple!</p>
         </div>
       </div>

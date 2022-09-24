@@ -128,6 +128,31 @@
 #footer .linklist li::before, #footer .linklist li::after{display:table; content:"";}
 #footer .linklist li, #footer .linklist li::after{clear:both;}
 
+/* Button */
+#footer form .btn{
+	transform:translatex(5px) translatey(65px);
+   }
+   
+   /* Input */
+   #footer form input[type=text]{
+	width:286px;
+	transform:translatex(65px) translatey(15px);
+   }
+   
+   /* Heading */
+   #footer .one_quarter h6{
+	height:51px !important;
+   }
+   
+   /* Nospace */
+   #footer .one_quarter .nospace{
+	min-height:45px;
+	transform:translatex(694px) translatey(-291px);
+	width:74% !important;
+   }
+   
+   
+
 /* Fieldset */
 #footer form fieldset{
 	transform:translatex(697px) translatey(-298px);

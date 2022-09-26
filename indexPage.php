@@ -115,26 +115,26 @@ MUNDO GAMING
     <div class="carousel-inner">
 
       <div class="item active">
-        <img src="./assets/Fondos/Fondo10.jpg" alt="Los Angeles" style="width:100%;">
+        <img src="./assets/Recursos/0 (1).jpg" alt="Los Angeles" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Naruto</h3>
-          <p>Pruebas tus habilidades ninja</p>
+          <h3>Mandos</h3>
+          <p>Pruebas tus habilidades</p>
         </div>
       </div>
 
       <div class="item">
-        <img src="./assets/Fondos/Fondo18.jpg" alt="Chicago" style="width:100%;">
+        <img src="./assets/Recursos/0 (2).jpg" alt="Chicago" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Dragon ball z</h3>
-          <p>Demuestra que eres el SSJ mas poderozo</p>
+          <h3>Diversidad</h3>
+          <p>¿Cual es tu mando preferido?</p>
         </div>
       </div>
     
       <div class="item">
-        <img src="./assets/Fondos/Fondo15.jpg" alt="New York" style="width:100%;">
+        <img src="./assets/Recursos/0 (3).jpg" alt="New York" style="width:100%;">
         <div class="carousel-caption">
-          <h3>Tokio ghoul</h3>
-          <p>Comer o se comido</p>
+          <h3>Videojoegos</h3>
+          <p>¿Cuantos has jugado?</p>
         </div>
       </div>
     </div>
@@ -292,7 +292,7 @@ MUNDO GAMING
                 <div class="tex2">
                     <div class="cont2">
                   <h2>FIFA 2022</h2>           
-                  <p>Andreu Ricci:Es dif&Oacute;cil deshacerse de la sensación de que FIFA 21 casi se ha congelado en estasis desde la temporada pasada. Si bien existen las mejoras estacionales esperadas, nada se destaca por sí solo para hacer de esta una entrega «imprescindible». Ojalá tengan más innovación reservada para el próximo año, porque definitivamente parece que EA está tratando de agotar el tiempo en esta generación</p></div>
+                  <p>Andreu Ricci:Es dif&Oacute;cil deshacerse de la sensación de que FIFA 21 casi se ha congelado en extasis desde la temporada pasada. Si bien existen las mejoras estacionales esperadas, nada se destaca por sí solo para hacer de esta una entrega «imprescindible». Ojalá tengan más innovación reservada para el próximo año, porque definitivamente parece que EA está tratando de agotar el tiempo en esta generación</p></div>
                 </div>
             </div>
             <div class="Tarjeta2">
@@ -302,21 +302,21 @@ MUNDO GAMING
                 <div class="tex3">
                     <div class="cont">
                         <h2>Minecraft</h2>           
-                        <p>Martha Lucia: Para mi minecraft es un juego que marco la historia y se merese estar donde esta con pocos graficos y siendo un juego mu simole esta muy entretenido y muy adictivo. es para toda las edades y no carese de cosas violentas y una forma educativa de entretenimiento para todas las edades y para tanto se esncuetra en todo los dipositivos. Si creo que esta muy bien este video debrian verlo esta en ingles pero esta subtitulado al espanol:</p> </div>
+                        <p>Martha Lucia: Para mi minecraft es un juego que marco la historia y se merece estar donde esta con pocos graficos y siendo un juego muy simple esta muy entretenido y muy adictivo. es para toda las edades y no carese de cosas violentas y una forma educativa de entretenimiento para todas las edades y para tanto se encuentra en todo los dispositivos. Si creo que esta muy bien este video deberian verlo esta en ingles pero esta subtitulado al español:</p> </div>
                          
                     </div>
             </div>
            
            <div class="contenedor__login-register" >
-                <!--Login-->
+           
                     <!--Register-->
-                    <form class="formulario__login">
+                    <form action="./assets/php/cometarios.php" method="POST" class="formulario__login">
                     <h2>Comentario</h2>
                     <input type="text" placeholder="Nombre completo" name="nombrecom">
                     <input type="text" placeholder="Correo" name="correocom">
                     <br><br>
                     <textarea placeholder="Comentarios" rows="7" cols="30" name="cometarioscom"></textarea>
-                    <button>Regístrarse</button>
+                    <button>Comentar</button>
                 </form>
             </div>
 
@@ -331,8 +331,8 @@ MUNDO GAMING
 <footer id="footer" class="hoc clear" > 
  
  <div class="one_quarter first">
-   <h6 class="heading">Hacerca de nosotros</h6>
-   <p>El laboratorio de paz, convivencia y seguridad ciudadana es una estrategia social nacida despues de la muerte del para militar Walter Patricio Vivas Amorocho mas conocido como "Alias Guacho"<a href="#">&hellip;</a>]</p>
+   <h6 class="heading">Acerca de nosotros</h6>
+   <p>Somos estudiantes de la Institucion Universitaria Antonio Jose camacho con conocimientos en video juegos y programacion los cuales quieren demostrarte este maravilloso mundo gamer<a href="#">&hellip;</a></p>
    <ul class="faico clear">
      <li><a class="faicon-facebook" href="https://www.facebook.com/ConviveciaCienciaYEducacion"><i class="fab fa-facebook"></i></a></li>
      <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
@@ -342,13 +342,13 @@ MUNDO GAMING
  </div>
  <div class="one_quarter">
    <h6 class="heading1">Redes sociales</h6>
-   <p class="nospace btmspace-15">Porfavor dejanos tus datos, nos comunicaremos con tigo.</p>
-   <form action="#" method="post">
+   <p class="nospace btmspace-15">Porfavor dejanos tus datos, nos comunicaremos contigo.</p>
+   <form action="./assets/php/formulario.php" method="POST">
      <fieldset>
        <legend>Formulario:</legend>
-       <input class="btmspace-15" type="text" value="" placeholder="Nombre">
-       <input class="btmspace-15" type="text" value="" placeholder="Motivo">
-       <input class="btmspace-15" type="text" value="" placeholder="Email">
+       <input class="btmspace-15" type="text" value="" placeholder="Nombre" name="nombremo">
+       <input class="btmspace-15" type="text" value="" placeholder="Motivo" name="motivo">
+       <input class="btmspace-15" type="text" value="" placeholder="Email" name="correomo">
        <button class="btn" type="submit" value="submit">Enviar</button>
      </fieldset>
    </form>

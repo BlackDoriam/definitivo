@@ -4,7 +4,7 @@ html{
     font-size: 20px;
 }
 body{
-    background-color: #f5f5f5;
+    background-color: #000000;
    margin: 0 auto;
 }
 a{
@@ -31,13 +31,13 @@ source{
   margin: 0 auto;  
 }
 .menu{
-    background-color: rgb(224, 187, 187);
+    background-image: url(img/gitches.gif);
     
 }
 .menu label{
     display: inline-block;
-    padding: 20px;
-    color: azure;
+    padding: 30px;
+    color: rgb(255, 255, 255);
     transition: all 400ms ease;
     margin-left: 90px;
 }   
@@ -80,25 +80,35 @@ img.hola{
     position: relative;
     left: 29%;
 }
-
+img.hola1{
+    position: relative;
+    left: 1%;
+}
+img.hola2{
+    position: relative;
+    left: 13%;
+}
 p.holi{
     font-size: 40px;
+    color: #f5f5f5;
 }
 
 
 
 div.op2{
-    background-image: url("/HojaDVD/Hoja de vida 2.0/img/baster.png");
+    background-image: url("/HojaDVD/Hoja de vida 2.0/img/game.jpg");
+    
 }
 div.op4{
-    background-color:  #f5f5f5;
+    background-color:  #000000;
+    width: 100%;
     
 }
 
 
 
 
-img.hola:hover{
+img.hola:hover, img.hola1:hover, img.hola2:hover{
 animation: rubberBand;    
 animation-duration: 0.9s;
 }
@@ -110,9 +120,14 @@ table.c:hover{
 }
 
 h1{
-    /* font-size: 40px; */
+   
     text-align: center ;
 }
+
+h2{
+    border: 100px;
+}
+
 th td.s1{
     margin-left: 90px;
     text-align:justify; 

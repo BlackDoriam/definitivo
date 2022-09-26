@@ -311,11 +311,11 @@ MUNDO GAMING
                 <!--Login-->
                     <!--Register-->
                     <form class="formulario__login">
-                    <h2>Regístrarse</h2>
-                    <input type="text" placeholder="Nombre completo" name="nombre">
-                    <input type="text" placeholder="Correo Electronico" name="correo">
-                    <input type="text" placeholder="Usuario" name="usuario">
-                    <input type="password" placeholder="Contraseña" name="contraseña">
+                    <h2>Comentario</h2>
+                    <input type="text" placeholder="Nombre completo" name="nombrecom">
+                    <input type="text" placeholder="Correo" name="correocom">
+                    <br><br>
+                    <textarea placeholder="Comentarios" rows="7" cols="30" name="cometarioscom"></textarea>
                     <button>Regístrarse</button>
                 </form>
             </div>

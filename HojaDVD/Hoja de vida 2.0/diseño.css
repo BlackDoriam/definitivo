@@ -24,6 +24,9 @@ source{
     cursor:url(img/serpi.png),auto;
 }
 
+a.regre{
+    font-size: 40px;
+}
 
 .contenid{
   width: 100% ;
